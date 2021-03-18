@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.login{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	/* height: 100vh; */
+	margin: 20px 0 50px 0;
+}
+.container {
+    /* background: #FFFFFF; */
+	position: absolute;
+	max-width: 800px;
+	height: 500px;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.myRightCtn {
+	position: relative;
+	background: linear-gradient(180deg, #F662A5 0%, #E20074 100%);
+	border-radius: 10px;
+	height: 100%;
+	padding: 25px;
+	display: flex;
+}
+.myLeftCtn {
+	position: relative;
+	background: #FFFFFF;
+	border-radius: 10px;
+	height: 100%;
+	padding: 25px;
+	padding-left: 40px;
+	justify-content: center;
+	align-items: center;
+}
+.myLeftCtn img {
+	max-width: 150px;
+	margin: auto;
+	display: block;
+	padding-bottom: 40px;
+}
+.row {
+	height: 100%;
+}
+.myCard {
+	position: relative;
+	background: #FFFFFF;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+.box {
+	position: relative;
+	margin: 20px;
+	margin-bottom: 100px;
+}
+.img-responsive {
+	margin-top: 30px;
+	height: 300px;
+}
+.myLeftCtn .myInput {
+	width: 250px;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 50px;
+	border: none;
+	margin-right: 14px;
+	box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+}
+.myLeftCtn .myInput:focus {
+	outline: none;
+}
+.myForm {
+	position: relative;
+	margin-top: 50px;
+}
+.myLeftCtn .butt {
+	background: linear-gradient(180deg, #F662A5 0%, #E20074 100%);
+	color: #FFFFFF;
+	width: 230px;
+	border: none;
+	border-radius: 25px;
+	margin-top: 20px;
+	padding: 10px;
+	box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+}
+.myLeftCtn .butt:focus {
+	outline: none;
+}
+.myLeftCtn .fa {
+	position: relative;
+	color: #B4AFAF;
+	left: 36px;
+}
+.form-group a {
+	color: #B4AFAF;
+}
+
